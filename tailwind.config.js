@@ -8,8 +8,10 @@ module.exports = {
         'secondaryColor': '#393B41',
         'black': '#000000',
          },     
-      '8xl': '96rem',
-      '9xl': '128rem',
+         spacing: {
+          '8xl': '96rem',
+          '9xl': '128rem',
+        },
     },
   },
   plugins: [],
