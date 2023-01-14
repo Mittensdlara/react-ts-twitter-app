@@ -11,8 +11,8 @@ function TweetBox() {
     e.preventDefault();
   
     ({
-      displayName: "Rafeh Qazi",
-      username: "cleverqazi",
+      displayName: "Del",
+      username: "pooaps",
       verified: true,
       text: tweetMessage,
       image: tweetImage,

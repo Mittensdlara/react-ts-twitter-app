@@ -1,5 +1,5 @@
 import * as React from 'react';
-import SidebarOption from "../component/SidebarOption";
+import SidebarOption from "../SidebarOption";
 import Home from '@ant-design/icons/HomeOutlined'
 import Explore from '@ant-design/icons/WindowsOutlined'
 import Notification from  "@ant-design/icons/NotificationOutlined"
@@ -14,10 +14,10 @@ function Sidebar() {
   return (
     
     <div className=
-    'border-solid border-1 border-twitter-background mt-20 pl-20 pr-20'
+    'border-solid border-1 border-twitter-background m-5 p-5 max-w-xs'
     >
 
-          <TwitterIcon className='text-twitter-color text-4xl mb-5'/>
+          <TwitterIcon className='text-twitter-color text-4xl mb-1'/>
      
       <SidebarOption active Icon={Home} text="Home" />
       <SidebarOption active Icon={Explore} text="Explore" /> 
